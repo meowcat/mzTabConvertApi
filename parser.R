@@ -1,5 +1,4 @@
 library(rJava)
-library(plumber)
 
 .jinit()
 rJava::.jaddClassPath(fs::path("jmztabm-cli-1.0.6.jar"))
